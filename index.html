@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="sfav.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1 class="heading">Stop Watch</h1>
+
+    <div class="stopwatch">
+
+        <h1 id="displaytime">00:00:00</h1>
+
+        <div class="buttons">
+            <img src="./images/stop.png" alt="" onclick="watchStop()">
+            <img src="./images/start.png" alt="" onclick="startWatch()">
+            <img src="./images/reset.png" alt="" onclick=" watchReset()">
+
+
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
